@@ -31,3 +31,11 @@ A couple of notes about prompt engineering:
 **Least-to-most** refers to prompt the LLM to decompose and solve, easy first.
 
 **Step-back** refers to prompt the LLM to identify high-level concepts pertinent to a specific task.
+
+## Issues with Prompting
+
+**Prompt injection (jailbreaking)** is the process to deliberately provide an LLM with input that attemps to cause it to ignore instructions, cause harm, or behave contrary to deployment expectations. 
+
+For example, text that reveals private informations.
+
+Prompt injection is a concern any time an external entity is given the ability to contribute to the prompt.
