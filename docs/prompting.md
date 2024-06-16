@@ -1,11 +1,5 @@
 # Prompting
 
-To exert some control over the LLM, we can affect the probability over vocabulary in two ways:
-- prompting
-- training
-
-## Prompting
-
 The simplest way to affect the distribution over the vocabulary is to change the **prompt**. The prompt is the text provided to an LLM as input, sometimes containing instructions and or examples.
 
 Very large decoder-only models are initially trained in a procedure called *pre-training*. During pre-training, a model is fed a tremendous amount of text that is typically quite varied.
