@@ -40,4 +40,4 @@ If we're trying to adapt a model to a new domain, let's say, from general text t
 
 ## Hardware costs of training
 
-![Hardware Costs](../images/hw_costs_of_training.png)
+![Hardware costs](../images/hw_costs_of_training.png)
