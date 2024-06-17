@@ -26,7 +26,7 @@ One of the methods is **LORA (Low Rank Adaptation)**. In this method, we keep th
 
 ## Soft Prompting
 
-**Soft prompting** is another cheap training option. In soft prompting, what we're going to do is actually add parameters to the prompt, which you can think about as adding very specialized, quote, unquote, *words* that will input to the model in order to queue it to perform specific tasks. 
+**Soft prompting** is another cheap training option. In soft prompting, what we're going to do is actually add parameters to the prompt, which you can think about as adding very specialized *words* that will input to the model in order to queue it to perform specific tasks. 
 
 Unlike prompting, a **soft prompt is learned** or in other words, the parameters that represent those specialized words we added to the prompt are initialized randomly and iteratively fine-tuned during training. 
 
