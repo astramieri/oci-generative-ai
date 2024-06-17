@@ -8,3 +8,4 @@ Note-taking repository for OCI Generative AI.
 - [LLM Architectures](./docs/llm_architectures.md)
 - [Prompting](./docs/prompting.md)
 - [Training](./docs/training.md)
+- [Decoding](./docs/decoding.md)
