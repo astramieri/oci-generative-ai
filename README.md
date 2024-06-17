@@ -9,3 +9,4 @@ Note-taking repository for OCI Generative AI.
 - [Prompting](./docs/prompting.md)
 - [Training](./docs/training.md)
 - [Decoding](./docs/decoding.md)
+- [Hallucination](./docs/hallucination.md)
