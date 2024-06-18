@@ -31,3 +31,11 @@ Some of the use cases:
     - `embed-english-light-v3.0` model from Cohere
     - `embed-multilingual-v3.0` model from Cohere
     - `embed-multilingual-light-v3.0` model from Cohere
+
+## Fine-Tuning 
+
+A key capability of the OCI Generative AI service is the ability to fine-tune pretrained foundational models with domain-specific data set.
+
+There are two benefits to doing fine-tuning:
+- improve model performance on specific tasks
+- improve model efficiency
