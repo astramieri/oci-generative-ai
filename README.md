@@ -11,3 +11,7 @@ Note-taking repository for OCI Generative AI.
 - [Decoding](./docs/decoding.md)
 - [Hallucination](./docs/hallucination.md)
 - [LLM Applications](./docs/llm_applications.md)
+
+#### Generative AI Service
+
+- [OCI Generative AI](./docs/oci_generative_ai.md)
