@@ -6,3 +6,28 @@ The service provides:
 - **choice of models**: high performing and pretrained foundational models from **Cohere** and **Meta**
 - **flexible fine-tuning**: custom models by fine-tuning foundational models with your own data set
 - **dedicated AI clusters**: GPU based compute resources that host you fine-tuning and inference workloads
+
+## How does OCI Generative AI service work ?
+
+The service is built to undestand, generate, and process human language at a massive scale.
+
+Some of the use cases:
+- text generation
+- text summarization
+- data extraction
+- data classification
+- conversation
+
+## Pretrained Foundational Models
+
+- **Generation Models** (text generation)
+    - `command` model from Cohere
+    - `command-light` model from Cohere
+    - `llama 2-70b-chat` from Meta
+- **Summarization Models** (text summarization)
+    - `command` model from Cohere
+- **Embedding** (convert text to vector embeddings)
+    - `embed-english-v3.0` model from Cohere
+    - `embed-english-light-v3.0` model from Cohere
+    - `embed-multilingual-v3.0` model from Cohere
+    - `embed-multilingual-light-v3.0` model from Cohere
