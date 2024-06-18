@@ -36,6 +36,8 @@ Some of the use cases:
 
 A key capability of the OCI Generative AI service is the ability to fine-tune pretrained foundational models with domain-specific data set.
 
+OCI Generative AI services uses the **T-Few fine-tuning** to enable fast and efficient customizations. *T-Few fine-tuning* is a parameter efficient fine-tuning technique where only a portion of model's weight is updated. This gives you results which have **better accuracy** at significantly **lower cost**.
+
 There are two benefits to doing fine-tuning:
 - improve model performance on specific tasks
 - improve model efficiency
