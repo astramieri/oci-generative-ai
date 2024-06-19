@@ -41,3 +41,11 @@ OCI Generative AI services uses the **T-Few fine-tuning** to enable fast and eff
 There are two benefits to doing fine-tuning:
 - improve model performance on specific tasks
 - improve model efficiency
+
+## Dedicated AI Clusters
+
+**Dedicated AI clusters** are GPU-based compute resources that hosts the customer's fine-tuning and interface workloads.
+
+The GPU allocated for a customer's generative AI tasks are isolated from other GPUs.
+
+![Dedicated AI Clusters](../images/dedicated_ai_cluster.png)
