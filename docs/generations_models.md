@@ -55,6 +55,8 @@ This is an example of how large language models take text as input.
 - **Show likelihoods**
     - it determines how likely it would be for a token to follow the current generated token
 
+![AI Playground](../images/ai_playground.png)
+
 ## Temperature
 
 **Temperature** is a (hyper) parameter that controls the randomness of the LLM output. 
