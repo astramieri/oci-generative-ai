@@ -75,6 +75,8 @@ The temperature setting basically tells the LLM which word can use as the **next
 
 **Top *p*** tells the model to pick from the top tokens based on the sum of their probabilities.
 
+For example, if we set top p as 0.10, then the model considers only the token that make up the top 10% of the probability of the next token.
+
 ![Top *p*](../images/top_p.png)
 
 ## Stop sequences
