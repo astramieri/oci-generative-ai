@@ -15,3 +15,4 @@ Note-taking repository for OCI Generative AI.
 #### Generative AI Service
 
 - [OCI Generative AI](./docs/oci_generative_ai.md)
+- [Generation Models](./docs/generations_models.md)
