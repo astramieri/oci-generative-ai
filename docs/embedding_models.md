@@ -61,3 +61,25 @@ Vector databases are capable of automating the *cosine similarity* and doing *ne
 *Let's say you have a user who has some question which cannot be answered by LLM. Maybe it's related to your customer support calls or something. So the user question is encoded as a vector and sent to the vector database. Now vector database can run a nearest match to identify the most closely associated documents or paragraphs. It finds the private content which closely matches the user query and then it takes those documents (or those paragraphs) and it inserts those into a prompt to be sent to the LLM. **The basic idea is to help answer the user question by changing the prompt**. Then the LLM uses the content which has been given by the vector database plus its general knowledge to provide an informed answer.*
 
 ![Retrieval Augmented Generation](../images/retrieval_augmented_generation.png)
+
+## Embedding Models
+
+- `embed-english-v3.0` model from Cohere
+    - converts english text into vector embeddings
+    - model creates 1024-dimensional vector for each embedding
+    - max 512 tokens per embedding
+- `embed-english-light-v3.0` model from Cohere
+    - smaller and faster version of `embed-english-v3.0`
+    - model creates 384-dimensional vector for each embedding
+    - max 512 tokens per embedding
+- `embed-multilingual-v3.0` model from Cohere
+    - state-of-the-art multilingual embedding model
+    - converts text in over 100 languages into vector embeddings
+    - model creates 1024-dimensional vector for each embedding
+    - max 512 tokens per embedding
+- `embed-multilingual-light-v3.0` model from Cohere
+    - smaller and faster version of `embed-multilingual-v3.0`
+    - model creates 384-dimensional vector for each embedding
+    - max 512 tokens per embedding
+
+One of the key improvements in **embed-v3** from Cohere is its ability to evaluate how well a query matches a document's topic and assess the overall quality of the content. This means that it can rank the highest-quality documents at the top, which is especially helpful when dealing with noisy data sets. It can significantly improve retrievals for RAG systems. 
