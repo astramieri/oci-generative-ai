@@ -17,3 +17,4 @@ Note-taking repository for OCI Generative AI.
 - [OCI Generative AI](./docs/oci_generative_ai.md)
 - [Generation Models](./docs/generation_models.md)
 - [Summarization Models](./docs/summarization_models.md)
+- [Embedding Models](./docs/embedding_models.md)
