@@ -20,3 +20,4 @@ Generative AI Service
 - [Embedding Models](./docs/embedding_models.md)
 - [Prompt Engineering](./docs/prompt_engineering.md)
 - [Customize LLMs with you data](./docs/customize_llms.md)
+- [Fine-Tuning and Inference](./docs/fine_tuning_and_inference.md)
