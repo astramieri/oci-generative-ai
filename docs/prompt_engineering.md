@@ -8,7 +8,7 @@ Completition LLMs are trained to predict the next word on a lage dataset of inte
 
 In today's context, most of the LLMs can follow instructions because those models are fine-tuned. **Reinforcement Learning from HUman Feedback (RLHF)** is a model training procedure that is applied to a fine-tuned language model to further align model behavior with human preferences and instruction following.
 
-*Llama2 foundational models were trained on a data set with 2 trillion tokens (the base model). Llama2-chat is a different model than the base model. It was additionally fine-tuned on something like 28,000 prompt response pairs created for this particular project. To align Llama2 to follow instructions, what we refer to as **AI alignment**, RLHF was used with a combination of more than 1.4 million meta examples and 7 smaller data sets.
+*Llama-2 foundational models were trained on a data set with 2 trillion tokens (the base model). Llama-2-chat is a different model than the base model. It was additionally fine-tuned on something like 28,000 prompt response pairs created for this particular project. To align Llama-2 to follow instructions, what we refer to as **AI alignment**, RLHF was used with a combination of more than 1.4 million meta examples and 7 smaller data sets.
 
 ## In-context learning and Few-shot Prompting
 
@@ -31,7 +31,6 @@ LLMs are trained on a specific prompt format. If you format prompts in a differe
         <</SYS>>
         {{user_message}}    -- user message specifying instructions to the model
     [/INST]                 -- end of instructions
-
 
 ## Advanced Prompting Strategies
 
