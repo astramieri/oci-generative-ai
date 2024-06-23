@@ -19,4 +19,7 @@ Dedicated AI cluster comes in these 4 unit types.
 
 ## Example Pricing
 
+- Minimum Hosting Commitment: **744 unit-hours/clusters**
+- Minimum Fine-Tuning Commitment: **1 unit-hour/fine-tuning job**
+
 ![Example Pricing](../images/example_pricing.png)
