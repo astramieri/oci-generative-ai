@@ -21,4 +21,5 @@ Generative AI Service
 - [Prompt Engineering](./docs/prompt_engineering.md)
 - [Customize LLMs with you data](./docs/customize_llms.md)
 - [Fine-Tuning and Inference](./docs/fine_tuning_and_inference.md)
+- [Fine-Tuning Configuration](./docs/fine_tuning_configuration.md)
 - [Dedicated AI Clusters](./docs/dedicated_ai_clusters.md)
