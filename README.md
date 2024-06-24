@@ -23,3 +23,4 @@ Generative AI Service
 - [Fine-Tuning and Inference](./docs/fine_tuning_and_inference.md)
 - [Dedicated AI Clusters](./docs/dedicated_ai_clusters.md)
 - [Fine-Tuning Configuration](./docs/fine_tuning_configuration.md)
+- [OCI Generative AI Security](./docs/oci_generative_ai_security.md)
