@@ -31,7 +31,9 @@
 These are the two measures by which we determine whether our model is giving good results or not:
 - **Accuracy**
     - it is a measure of how many predictions the models made correctly out of all the prediction in an evalutation
+    - *for example, an accuracy of 0.95 means that 95% of the output tokens matched the tokens in the training dataset*
 - **Loss**
     - it is a measure that describes how bad or wrong a prediction is 
     - accuracy does not describe how incorrect the wrong predictions are
     - it should decrease as the model improves 
+    - *for example, a loss of 0 means that all outputs were perfect, while a large number indicated highly random outputs*
