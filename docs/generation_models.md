@@ -52,6 +52,7 @@ This is an example of how large language models take text as input.
     - two additionals ways to pick up the output tokens besides temperature
 - **Frequency/Presence penalty**
     - it assigns a penalty when a token appears frequently and produces repetitive text
+    - it aims to discourage the repetition of tokens that have already appeared in the generated text
 - **Show likelihoods**
     - it determines how likely it would be for a token to follow the current generated token
 
