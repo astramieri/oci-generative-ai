@@ -24,3 +24,7 @@ Generative AI Service
 - [Dedicated AI Clusters](./docs/dedicated_ai_clusters.md)
 - [Fine-Tuning Configuration](./docs/fine_tuning_configuration.md)
 - [OCI Generative AI Security](./docs/oci_generative_ai_security.md)
+
+Bulding Blocks for an LLM Application
+
+- [Retrieval Augmented Generation (RAG)](./docs/rag.md)
