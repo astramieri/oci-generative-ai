@@ -31,3 +31,6 @@ Bulding Blocks for an LLM Application
 - [Vector Databases](./docs/vector_databases.md)
 - [Keyword Search](./docs/keyword_search.md)
 - [Semantic Search](./docs/semantic_search.md)
+
+Build an LLM using OCI Generative AI Service
+
