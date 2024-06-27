@@ -29,3 +29,4 @@ Bulding Blocks for an LLM Application
 
 - [Retrieval Augmented Generation (RAG)](./docs/rag.md)
 - [Vector Databases](./docs/vector_databases.md)
+- [Keyword Search](./docs/keyword_search.md)
