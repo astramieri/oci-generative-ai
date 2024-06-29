@@ -1,0 +1,10 @@
+oci==2.129.0
+oracle-ads==2.11.13
+langchain==0.2.6
+langchain-community==0.2.6
+langsmith==0.1.82
+chromadb==0.5.3
+wise==0.9.8
+pydantic==2.7.4
+streamlit==1.36.0
+pypdf==4.2.0
