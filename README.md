@@ -34,3 +34,6 @@ Bulding Blocks for an LLM Application
 
 Build an LLM using OCI Generative AI Service
 
+- [Chatbot](./docs/chatbot.md)
+
+
