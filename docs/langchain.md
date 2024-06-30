@@ -64,3 +64,17 @@ Chains can be composed in two ways:
     - it is a declarative and preferred way to create chains
 - **Legacy** 
     - LangChain Python classes like LLM Chain
+
+## LangChain Memory
+
+In the context of chatbot and LangChain, **memory** is the ability to store information about past interactions.
+
+LangChain interacts with the memory **twice** in a run:
+- after user input but before chain execution  
+    - read from memory
+- after core logic but before output
+    - write to memory
+
+LangChain offers a **variety of memory types**. For example, we may use a chain that returns a summary of the contents of the memory instead of the actual contents of the memory.
+
+When multiple users are using a chatbot, every user will ask different questions and will have different responses. So how do we store these? If we use *Streamlit* as our user interface, **a separate session is created** for every connected user. We can store chat history in user-specific session. 
