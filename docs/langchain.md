@@ -78,3 +78,18 @@ LangChain interacts with the memory **twice** in a run:
 LangChain offers a **variety of memory types**. For example, we may use a chain that returns a summary of the contents of the memory instead of the actual contents of the memory.
 
 When multiple users are using a chatbot, every user will ask different questions and will have different responses. So how do we store these? If we use *Streamlit* as our user interface, **a separate session is created** for every connected user. We can store chat history in user-specific session. 
+
+## RAG with LangChain
+
+LLMs are trained on a vast amount of data, but LLMs are also limited by the data that they're trained on. LLMs will not have knowledge of your custom data. 
+
+For building applications that can answer questions about your custom data, we need to provide that data to the LLMs. The process of inserting relevant custom data into the prompt so that it can be passed onto the LLM is called as Retrieval Augmented Generation (RAG).
+
+RAG is split into two parts:
+- **indexing**
+    - load documents (e.g PDFs, CSVs, etc.)
+    - split documents 
+    - embed and store 
+- **retrieval and generation**
+    - retrieve documents
+    - generate output
