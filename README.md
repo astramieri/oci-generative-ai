@@ -38,4 +38,8 @@ Build an LLM using OCI Generative AI Service
 - [LangChain](./docs/langchain.md)
 - [Technical Architecture](./docs/technical_architecture)
 
+## Resources
+
+- [Example Code (GitHub)](https://github.com/ou-developers/ou-generativeai-pro/tree/main/demos)
+
 
