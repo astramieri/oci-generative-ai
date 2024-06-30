@@ -36,5 +36,6 @@ Build an LLM using OCI Generative AI Service
 
 - [Chatbot](./docs/chatbot.md)
 - [LangChain](./docs/langchain.md)
+- [Technical Architecture](./docs/technical_architecture)
 
 
