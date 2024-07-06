@@ -15,7 +15,7 @@ In a RAG system, typically:
 
 RAG systems, as opposed to systems that do not leverage an external corpus of documents, **tend to hallucinate less**. If we give the LLM a question and then some text that contains the answer, it should be easier to answer the question by leveraging the text than answering it based solely on the documents it has seen during pre-training.
 
-RAG systems are also elegant because they provide a **non-parametric mechanism for improvement**. By non-parametric, what I mean is that we don't have to touch the model at all to improve the system. All we have to do is add more documents.
+RAG systems are also elegant because they provide a **non-parametric mechanism for improvement**. By non-parametric means we don't have to touch the model at all to improve the system. All we have to do is add more documents.
 
 RAG systems are used for a variety of tasks:
 - dialogue
@@ -27,7 +27,7 @@ RAG systems are used for a variety of tasks:
 
 **Code Models** are LLMs trained on code, comments, and documentation.  These models have demonstrated amazing capabilities in terms of code completion and documentation completion. 
 
-Arguably, code completion might be easier than general text completion. And as such, it's easier to train performant code models. One potential reason for this is that generating code is narrower in scope than generating arbitrary text. Code is more structured, more repetitive and less ambiguous than natural language.
+Arguably, code completion might be easier than general text completion. One potential reason for this is that generating code is narrower in scope than generating arbitrary text. Code is more structured, more repetitive and less ambiguous than natural language.
 
 These models largely eliminate the need to write any boilerplate code and commonly written functions or variables or variations of such functions. Moreover, they also shine when programming in a language that you don't know well. Instead of using a search engine to continually look up language syntax and functions, just ask the model to write the code for you.
 
