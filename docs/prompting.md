@@ -6,27 +6,27 @@ Very large decoder-only models are initially trained in a procedure called *pre-
 
 ## Prompt Engineering 
 
-**Prompt Engineering** is the process of iteratively refining the prompt for the purpose of elicing a particular style of response.
+Prompt Engineering is the **process of iteratively refining the prompt** for the purpose of elicing a particular style of response.
 
 A couple of notes about prompt engineering:
 - it is **challenging**, often **unintuitive**, and **not guaranteed to work**
-    - Even adding a *whitespace* can have a large effect on the distribution over vocabulary words!
-- it **can be effective**
-    - Multiple tested prompt-desing strategies exist
+    - even adding a *whitespace* can have a large effect on the distribution over vocabulary words!
+- it can be **effective**
+    - multiple tested prompt-desing strategies exist
 
-## Prompt Engineering Strategies
+## Prompt Engineering strategies
 
-**In-context learning** means conditioning (prompting) an LLM with instructions and or demonstrations of the task it is meant to complete. The phrase *in-context learning* does not actually involve learning in the traditional sense, none of the parameters of the model are changing.
+- **In-context learning** means conditioning (prompting) an LLM with instructions and or demonstrations of the task it is meant to complete. The phrase *in-context learning* does not actually involve learning in the traditional sense, none of the parameters of the model are changing.
 
-**K-shot prompting** means explicitly proving *k* examples of the intended task in the prompt. Few-shot prompting is widely believed to improve results over 0-shot promtping.
+- **K-shot prompting** means explicitly proving *k* examples of the intended task in the prompt. *Few-shot prompting* is widely believed to improve results over *Zero-shot promtping*.
 
-**Chaing-of-Thought** refers to prompt the LLM to emit intermediate reasoning steps. It is not reasoning, but it imitates reasoning in a nice and convincing way.
+- **Chain-of-thought** refers to prompt the LLM to emit intermediate reasoning steps. It is not reasoning, but it imitates reasoning in a nice and convincing way.
 
-**Least-to-most** refers to prompt the LLM to decompose and solve, easy first.
+- **Least-to-most** refers to prompt the LLM to decompose and solve, easy first.
 
-**Step-back** refers to prompt the LLM to identify high-level concepts pertinent to a specific task.
+- **Step-back** refers to prompt the LLM to identify high-level concepts pertinent to a specific task.
 
-## Issues with Prompting
+## Issues with prompting
 
 **Prompt injection (jailbreaking)** is the process to deliberately provide an LLM with input that attemps to cause it to ignore instructions, cause harm, or behave contrary to deployment expectations. 
 
