@@ -27,8 +27,8 @@ A LM gives a probability to every word in its vocabulary of appearing in the bla
     - What the model can do or it's supposed to do ?
 - **Prompting and Training**
     - How do we affect the distribution over the vocabulary ?
-        - *prompting* does not change any of the model's parameters
-        - *training* change the model's parameters
+        - *Prompting* does not change any of the model's parameters
+        - *Training* change the model's parameters
 - **Decoding**
     - *Decoding* is the technical term for generating text from an LLM
 

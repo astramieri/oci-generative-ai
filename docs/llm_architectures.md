@@ -30,7 +30,7 @@ Primary uses:
 
 What is a **semantic search** ? 
 
-Let's say you want to take an input text snippet and retrieve a similar document from a corpus. To accomplish this, you could encode or synonymously embed each document in the corpus and store them in an index. When you get the input snippet, you encode that too and check the similarity of the encoded input against the similarity of each document in the corpus. And then you return the most similar.
+Let's say you want to take an input text snippet and retrieve a similar document from a corpus. To accomplish this, you could encode or synonymously embed each document in the corpus and store them in an index. When you get the input snippet, you encode that too and **check the similarity of the encoded input against the similarity of each document in the corpus**. And then you return the most similar.
 
 ![Encoders](../images/encoders.png)
 
