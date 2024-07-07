@@ -22,7 +22,7 @@ There are 3 mains reasons:
 1. **In-context Learning** and **Few Shot Prompting**
     - user provides demonstration in the prompt to teach the model how to perform certain tasks
     - popular techniques includes **Chain of Thought Prompting**
-    - WARNING: main limitation is the model context lenght (e.g. 4096 tokens)
+    - main limitation is the model context lenght (e.g. 4096 tokens)
 2. **Fine-tuning a pretrained model**
     - optimize a model on a smaller domain-specific dataset
     - recommended when a pretrained model doesn't perform your task well or when you want to teach it something new
