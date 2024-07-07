@@ -20,7 +20,7 @@
         - default: 0.01
     - (T-Few) Early stopping patience
         - tolerance for stagnation in the loss metric before stopping the training process  
-        - it is a technique to prevent overfitting during the training
+        - it is a technique to **prevent overfitting** during the training
         - default: 6
     - (T-Few) Log model metrics interval in steps
         - it determines how frequently to log model metrics
