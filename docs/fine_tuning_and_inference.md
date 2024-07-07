@@ -4,7 +4,7 @@
 
 A **custom model** is a model that you create by using a pre-trained model as a base and using your own data set to fine tune that model.
 
-In traditional ML terminology, *inference* refers to the process of using a trained machine learning model to make predictions or decisions based on new input data. In case of LLMs, **inference refers to the model receiving new text as input and generating output text** based on what it has learned during training and fine-tuning. 
+In traditional ML terminology, **inference** refers to the process of using a trained machine learning model to make predictions or decisions based on new input data. In case of LLMs, **inference refers to the model receiving new text as input and generating output text** based on what it has learned during training and fine-tuning. 
 
 ![Fine-Tuning and Inference](../images/fine_tuning_and_inference.png)
 
@@ -51,9 +51,9 @@ T-Few Fine-Tuning Process:
 
 ## Inference costs
 
-**Inference is computationallly expensive**. Every time you're sending a request, you're getting a response back, there is cost associated with that.
+**Inference is computationally expensive**. Every time you're sending a request, you're getting a response back, there is cost associated with that.
 
-In case of OCI Generative AI service and dedicated AI cluster, each hosting cluster can host one base model endpoint and up-to-n fine-tuned custom model endpoints that can serve requests concurrently. 
+In case of OCI Generative AI service and dedicated AI cluster, each hosting cluster can host one base model endpoint and *up-to-n* fine-tuned custom model endpoints that can serve requests concurrently. 
 
 This approach of **models sharing the same GPU resources reduces the expenses** associated with inference. Endpoints can be de-activated to stop serving requests and re-activated later.
 
