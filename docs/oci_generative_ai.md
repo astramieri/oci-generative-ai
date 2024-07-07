@@ -4,7 +4,7 @@
 
 The service provides:
 - **choice of models**: high performing and pretrained foundational models from **Cohere** and **Meta**
-- **flexible fine-tuning**: custom models by fine-tuning foundational models with your own data set
+- **flexible fine-tuning**: fine-tuning foundational models with your own data set
 - **dedicated AI clusters**: GPU based compute resources that host your fine-tuning and inference workloads
 
 ## How does OCI Generative AI service work ?
@@ -23,7 +23,7 @@ Some of the use cases:
 - **Generation Models** (text generation)
     - `command` from Cohere
     - `command-light` from Cohere
-    - `llama 2-70b-chat` from Meta
+    - `llama-2-70b-chat` from Meta
 - **Summarization Models** (text summarization)
     - `command` from Cohere
 - **Embedding** (convert text to vector embeddings)
@@ -44,7 +44,7 @@ There are two benefits to doing fine-tuning:
 
 ## Dedicated AI Clusters
 
-**Dedicated AI clusters** are GPU-based compute resources that hosts the customer's fine-tuning and interface workloads.
+Dedicated AI clusters are GPU-based compute resources that hosts the customer's fine-tuning and interface workloads.
 
 The GPU allocated for a customer's generative AI tasks are isolated from other GPUs.
 
