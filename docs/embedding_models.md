@@ -18,11 +18,9 @@ The real use case is **translation**, which is a sequence-to-sequence task.
 
 ## Word Embeddings
 
-Word Embeddings capture **properties** of the world.
+Word embeddings capture **properties** of the word.
 
-Actual embedding represent more properties (coordinates) that just two. 
-
-The rows of coordinates are called vectors and represented as numbers.
+Actual embedding represent more properties (coordinates) that just two.
 
 ![Word embeddings - Graph](../images/word_embeddings_graph.png)
 
@@ -54,9 +52,7 @@ One of the main challenges faced by today's generative models or embedding model
 
 A promising approach to overcoming this limitation is **Retrieval-Augmented Generation (RAG)**. 
 
-So how fundamentally RAG works ? You can take a large corpus of documents, break it into chunks or paragraphs, and generate the embedding for each paragraph, and store all the embeddings into a **vector database**.
-
-Vector databases are capable of automating the *cosine similarity* and doing *nearest-match* searches through that database for some search embedding.
+So how fundamentally RAG works ? You can take a large corpus of documents, break it into chunks or paragraphs, and generate the embedding for each paragraph, and store all the embeddings into a **vector database**. Vector databases are capable of automating the *cosine similarity* and doing *nearest-match* searches through that database for some search embedding.
 
 *Let's say you have a user who has some question which cannot be answered by LLM. Maybe it's related to your customer support calls or something. So the user question is encoded as a vector and sent to the vector database. Now vector database can run a nearest match to identify the most closely associated documents or paragraphs. It finds the private content which closely matches the user query and then it takes those documents (or those paragraphs) and it inserts those into a prompt to be sent to the LLM. **The basic idea is to help answer the user question by changing the prompt**. Then the LLM uses the content which has been given by the vector database plus its general knowledge to provide an informed answer.*
 

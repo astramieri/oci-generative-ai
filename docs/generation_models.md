@@ -11,8 +11,6 @@ Number of tokens per word depend on the complexity of the text:
 - for **simple texts**: 1 token/word (avg)
 - for **complex texts** (less common words): 2/3 token/word (avg)
 
-This is an example of how large language models take text as input.
-
 ![Tokens](../images/tokens.png)
 
 ## Pretrained generation models in Generative AI
@@ -20,7 +18,7 @@ This is an example of how large language models take text as input.
 - `command` model from Cohere
     - highly performant, instruction-following conversational model 
     - model parameter: 52B
-    - context window(*): 4096 tokens
+    - context window (*): 4096 tokens
     - use cases: 
         - text generation
         - text summarization
@@ -28,12 +26,12 @@ This is an example of how large language models take text as input.
 - `command-light` model from Cohere
     - small, faster version of `command`, but almost as capable
     - model parameter: 6B
-    - context window(*): 4096 tokens
+    - context window (*): 4096 tokens
     - use when speed and cost are important (give clear instruction for best results)
 - `llama-2-70b-char` model from Meta
     - highly performant, open-source model optimized for dialogue use cases 
     - model parameter: 70B
-    - context window(*): 4096 tokens
+    - context window (*): 4096 tokens
     - use cases: 
         - text generation
         - conversation (chat) 
@@ -76,7 +74,7 @@ The temperature setting basically tells the LLM which word can use as the **next
 
 **Top *p*** tells the model to pick from the top tokens based on the sum of their probabilities.
 
-For example, if we set top p as 0.10, then the model considers only the token that make up the top 10% of the probability of the next token.
+For example, if we set *top p* as 0.10, then the model considers only the token that make up the top 10% of the probability of the next token.
 
 ![Top *p*](../images/top_p.png)
 
