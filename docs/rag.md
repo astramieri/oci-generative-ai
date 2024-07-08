@@ -12,7 +12,7 @@ RAG can significantly improve performance by retrieving documents or data that c
     
     This component is responsible for sourcing relevant information from a large corpus or database. 
     
-    It acts like a search engine, scanning through vast amounts of data to find content that is pertinent to the query at hand. It uses retrieval techniques, such as vector similarity search, keyword-based search, document retrieval or structured database queries to fetch data. 
+    It acts like a **search engine**, scanning through vast amounts of data to find content that is pertinent to the query at hand. It uses retrieval techniques, such as vector similarity search, keyword-based search, document retrieval or structured database queries to fetch data. 
 
     The goal is to provide the generation system with **contextually relevant, accurate, and up-to-date information** that might not be present in the model's pre-trained knowledge.
 
@@ -34,13 +34,13 @@ There are two ways to implement RAG:
 
 1. **RAG Sequence Model**
 
-    For each input query (like a chapter topic), the model retrieves a set of relevant documents or information. It then considers all these documents together to generate a single cohesive response (the entire chapter) that reflects the combined information.
+    For each input query (like a chapter topic), the model retrieves a set of relevant documents or information. It then considers all these documents together to generate **a single cohesive response** (the entire chapter) that reflects the combined information.
 
     *Imagine you are writing a chapter about the French Revolution. You gather several books and articles on the topic, you read them all, and then write the entire chapter.*
 
 2. **RAG Token Model**
 
-     For each part of the response (like each sentence or even each word), the model retrieves relevant documents.The response is constructed incrementally with each part reflecting the information from the documents retrieved for that specific part. 
+     For each part of the response (like each sentence or even each word), the model retrieves relevant documents. The **response is constructed incrementally** with each part reflecting the information from the documents retrieved for that specific part. 
      
      *Imagine you are writing an article about a complex topic, such as climate change. For each point you make or each sentence you write, you look up specific articles or data to ensure that part of your story is accurate and relevant.*
 
@@ -52,11 +52,11 @@ The RAG sequence considers the entire input query at once for retrieval, while R
 
 The RAG architecture combines a retrieval-based component with a generative model to enhance the generation of text. This approach is particularly useful in scenarios where generative models need to be supplemented with specific information that may not be present in their training data.
 
-The first phase is **ingestion**, where documents are ingested into the system. The documents are  broken down into a smaller, more manageable piece, often referred to as **chunks**. This is typically done to improve the efficiency of processing and to focus on relevant sections of the text. Each chunk is then transformed into a mathematical representation called an **embedding**. These embeddings are then **indexed** in a database that facilitates quick retrieval. 
+1. The first phase is **ingestion**, where documents are ingested into the system. The documents are  broken down into a smaller, more manageable piece, often referred to as **chunks**. This is typically done to improve the efficiency of processing and to focus on relevant sections of the text. Each chunk is then transformed into a mathematical representation called an **embedding**. These embeddings are then **indexed** in a database that facilitates quick retrieval. 
 
-In the next phase, the system uses the indexed data to find relevant information. **Query** is a user's input or question that need to be answered. The system uses this query to search through this indexed embeddings from the ingestion phase to find the most relevant chunks. From the retrieval process, the system selects the **top K most relevant results**, which are the chunks that are most likely to contain information relevant to the query. 
+2. In the next phase, the system uses the indexed data to find relevant information. **Query** is a user's input or question that need to be answered. The system uses this query to search through this indexed embeddings from the ingestion phase to find the most relevant chunks. From the retrieval process, the system selects the **top K most relevant results**, which are the chunks that are most likely to contain information relevant to the query. 
 
-The third and final phase is **generation**. This is where the system generates a response based on the information retrieved. The selected chunks from the retrieval phase are fed into the generative model. The generative model, often a neural network like a transformer, uses the context provided by this top k chunks to generate a coherent and contextually relevant response to the query. 
+3. The third and final phase is **generation**. This is where the system generates a response based on the information retrieved. The selected chunks from the retrieval phase are fed into the generative model. The generative model, often a neural network like a transformer, uses the context provided by this top k chunks to generate a coherent and contextually relevant response to the query. 
 
 ![RAG pipeline](../images/rag_pipelines.png)
 
@@ -70,7 +70,7 @@ The RAG model combines the context of the conversation with specific retrieve in
 
 Even though RAG have the access to the most updated database and gives accurate answers, it does not fully eliminate **the risk of hallucinations** for various reasons: 
 - the retrieval could simply fail to retrieve sufficient context or get the relevant one
-- the response generated by a RAG application was not supported by the retrieved context, but would have been mostly influenced by the LLM and its training data
+- the response generated by a RAG application was not supported by the retrieved context
 
 For these, **RAG triad** comes handy:
 
