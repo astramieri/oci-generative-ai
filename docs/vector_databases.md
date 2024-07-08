@@ -1,8 +1,8 @@
 # Vector Databases
 
-LLMs without RAG rely on internal knowledge learned during pre-training on a large corpus of text. It may or may not use Fine Tuning. 
+LLMs without RAG rely on internal knowledge learned during pre-training on a large corpus of text. It may or may not use *fine tuning*. 
 
-LLMs with RAG use an external database, which is a **vector database**. They are a type of database optimized for storing and querying vectors instead of a traditional row-based.
+LLMs with RAG use an external database, which is a **vector database**. They are a type of **database optimized for storing and querying vectors instead of a traditional row-based**.
 
 Vector database and the concept of indexing and vectors, which are high-dimensional data have been used **before LLMs**. Search engines have used vector space models for decades to represent text documents for similarity searches and ranking.
 
@@ -28,7 +28,7 @@ Many vector databases uses a distributed architecture to handle the storage and 
 
 ## Embedding Distance
 
-*Dot Product* and *Cosine Distance* are commonly used in the field of NLP to evaluate how similar or different two text embeddings are. ù
+*Dot Product* and *Cosine Distance* are commonly used in the field of NLP to evaluate how similar or different two text embeddings are.
 
 **Dot Product** is the measure of the magnitude of the projection of one vector onto the other and gives you magnitude and direction.
 
@@ -60,11 +60,11 @@ In some cases, the vector database retrieves the final nearest neighbors from th
 
 1. **Accuracy**
 
-    Vector databases store data in a way that preserves semantic relationships, which is crucial for the accuracy of language models. Traditional databases may not effectively capture these nuanced relationships.
+    **Vector databases store data in a way that preserves semantic relationships**, which is crucial for the accuracy of language models. Traditional databases may not effectively capture these nuanced relationships.
 
 2. **Latency**
 
-    Vector databases are optimized for quick retrieval of high-dimensional data, a key requirement for reducing latency in LLMs. Traditional databases might not offer the same level of efficiency in data retrieval. The indexing mechanisms in vector databases are designed for the efficient searching of high-dimensional data and this efficiency is crucial for reducing the response time of LLMs in real time applications.
+    **Vector databases are optimized for quick retrieval of high-dimensional data**, a key requirement for reducing latency in LLMs. Traditional databases might not offer the same level of efficiency in data retrieval. The indexing mechanisms in vector databases are designed for the efficient searching of high-dimensional data and this efficiency is crucial for reducing the response time of LLMs in real time applications.
 
 3. **Scalability**
 
