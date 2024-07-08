@@ -3,7 +3,7 @@
 Semantic search is **search by meaning**. It is a name given to search algorithms in which the retrieval is done by **understanding the semantics of the text**, rather than matching keywords.
 
 The two ways to leverage semantic search are:
-- **dense retrieval**: uses text embeddings (*)
+- **dense retrieval**: uses text embeddings
 - **reranking**: assigns a relevance score
 
 ## Embeddings
@@ -12,7 +12,7 @@ Embeddings represent the **meaning of text as a list of numbers**.
 
 Embeddings encompass thousands of numbers. Each number represent a piece of information about the meaning contained in the piece of the text.
 
-The main purpose of embeddings is to capture the essence of the data in a lower dimensional space that a computer can process, while maintaining the semantic relationships and meaning. 
+**The main purpose of embeddings is to capture the essence of the data in a lower dimensional space that a computer can process, while maintaining the semantic relationships and meaning.**
 
 With embeddings, you can compare two or more pieces of text, be it single word, sentences, paragraphs, or even longer documents.
 
@@ -35,7 +35,7 @@ Reranking, in context of information retrieval and machine learning is a process
 
 Reranking assigns a relevance score to query-response pairs from initial search results. The relevance score is high when the response is likely to be correct response to the query and low otherwise.
 
-Reranking is **implemented through an LLM**. The way to train this model is giving it positive and negativa query-response pairs and training the model to score positive pairs highly and negative pairs low.
+Reranking is **implemented through an LLM**. The way to train this model is giving it positive and negative query-response pairs and training the model to score positive pairs highly and negative pairs low.
 
 ## Hybrid Search: Sparse + Dense
 
