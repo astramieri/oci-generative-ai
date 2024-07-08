@@ -22,7 +22,7 @@ These components are **easily exchangeable** as well. For example, we can switch
 
  There are two main types of models that LangChain integrates with:
  - **LLMs**
-    - they refer to pure text **completion models**
+    - they refer to **pure text completion models**
     - they take a string prompt as input and output a string completion
     
  - **Chat Models**
@@ -31,7 +31,7 @@ These components are **easily exchangeable** as well. For example, we can switch
 
 ## LangChaing Prompts
 
-LangChain has pre-built classes to create prompts. These are called as **prompt templates** and they are predefined recipes for generating prompts for language models.
+LangChain has pre-built classes to create prompts. These are called as **prompt templates** and they are **predefined recipes for generating prompts** for language models.
 
 Tipically, language models expect the prompts to either be a *string* or else a *list of chat message*:
 - **String Prompt Template** 
