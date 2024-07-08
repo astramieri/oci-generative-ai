@@ -4,7 +4,7 @@
 
 One of the limitations of standard LLMs is the reliance on the knowledge they were trained on. That knowledge might be outdated and it also falls short in tasks requiring a specific information. **RAG address this by retrieving up-to-date information from external sources**, thus enhancing the accuracy and relevance of the information it provides.
 
-RAG can significantly improve performance by retrieving documents or data that contain the exact information needed, something that pure generative models might struggle with. RAG models retrieves documents and pass them to a sequence-to-sequence (i.e. *seq2seq*) model, such as encoder decoder architecture. A sequence-to-sequence model is particularly effective for tasks where the input and output sequences can have different lengths, such as machine translation, text summarization, and conversation modeling.
+RAG can significantly improve performance by retrieving documents or data that contain the exact information needed, something that pure generative models might struggle with. RAG models retrieves documents and pass them to a sequence-to-sequence (i.e. *seq2seq*) model, such as encoder-decoder architecture. A sequence-to-sequence model is particularly effective for tasks where the input and output sequences can have different lengths, such as machine translation, text summarization, and conversation modeling.
 
 ## RAG Framework
 
