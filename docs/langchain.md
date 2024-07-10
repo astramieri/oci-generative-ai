@@ -36,6 +36,7 @@ LangChain has pre-built classes to create prompts. These are called as **prompt 
 Tipically, language models expect the prompts to either be a *string* or else a *list of chat message*:
 - **String Prompt Template** 
     - it creates the input from a combination of fixed text input and variables
+    - it can support any number of variables, including none at all
 - **Chat Prompt Template**
     - it creates the input from a list of chat messages
     - each chat message is associated with *content* and an additional parameter called *role*
