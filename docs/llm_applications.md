@@ -35,7 +35,9 @@ These models largely eliminate the need to write any boilerplate code and common
 
 **Multi-Modal Models** are trained on multiple data modalities, for example text, images, and audio. These models can produce images or even video from textual descriptions and perform similar types of tasks.
 
-**Diffusion Models** can generate images all at once rather than one pixel at a time. The way they do this is by starting with an image that is simply noise (it's not an image of anything at first) and iteratively refining all the pixels in the image simultaneously until a coherent image emerges.
+**Diffusion Models** can generate images all at once rather than one pixel at a time. The way they do this is by starting with an image that is simply noise (it's not an image of anything at first) and iteratively refining all the pixels in the image simultaneously until a coherent image emerges. 
+
+*Diffusion models work well with continuous data, where the process involves gradually adding noise to the data and then learning to reverse this process. In image generation, this works well because pixel values are inherently continuous. Text data, on the other hand, is discrete and categorical; words are symbols that come from a fixed vocabulary and they can't be meaningfully interpolated like pixel values. This discreteness means that you can't directly apply the same gradual noise and denoising process that works for images.*
 
 ## Language Agents
 
